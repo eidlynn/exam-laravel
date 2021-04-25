@@ -4,6 +4,6 @@
 
 @section('main')
 	<div class="task-list">
-        <p>Suppression réussie</p>
+        <p>Successfully deleted !</p>
 	</div>
 @endsection

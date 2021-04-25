@@ -9,5 +9,5 @@
 		<p>{{ $task->created_at->format('d M Y')}}</p>
 
 	</div>
-	<button><a href="/task/delete/{{$task->id}}">Supprimer</a></button>
+	<button><a href="/task/delete/{{$task->id}}">Delete this task</a></button>
 @endsection
