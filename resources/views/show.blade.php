@@ -4,6 +4,10 @@
 
 @section('main')
 	<div class="task-list">
-        <p>Suppression réussie</p>
+        <p>{{ $task->title }}</p>
+		<p>{{ $task->description }}</p>
+		<p>{{ $task->created_at->format('d M Y')}}</p>
+
 	</div>
+	<button><a href="/task/delete/{{$task->id}}">Supprimer</a></button>
 @endsection
